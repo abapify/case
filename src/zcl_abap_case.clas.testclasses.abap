@@ -46,7 +46,7 @@ class ltcl_test implementation.
     ltcl_case=>test(
       exporting
         name       = 'Camel case'
-        case       = zcl_abap_case=>camel( )
+        case       = zcl_abap_case=>camel(  )
         abap_value = 'CAMEL_CASE'
         out_value  = 'camelCase'
     ).
@@ -58,7 +58,7 @@ class ltcl_test implementation.
     ltcl_case=>test(
       exporting
         name       = 'Snake case'
-        case       = zcl_abap_case=>snake( )
+        case       = zcl_abap_case=>snake(  )
         abap_value = 'SNAKE_CASE'
         out_value  = 'snake_case'
     ).
@@ -70,7 +70,7 @@ class ltcl_test implementation.
     ltcl_case=>test(
       exporting
         name       = 'Kebab case'
-        case       = zcl_abap_case=>kebab( )
+        case       = zcl_abap_case=>kebab(  )
         abap_value = 'KEBAB_CASE'
         out_value  = 'kebab-case'
     ).
