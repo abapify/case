@@ -1,5 +1,5 @@
-"! Case convertor
-"! This is just a convertor - it should support any case
+"! Case converter
+"! This is just a converter - it should support any case
 interface ZIF_ABAP_CASE
   public .
 
